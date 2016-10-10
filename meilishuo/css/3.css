@@ -1,0 +1,32 @@
+/*初始化*/
+*{margin: 0;padding: 0px;font-size: 12px;font-family: Arial;text-decoration: none; list-style: none; color:black;}
+a{color:#666666;}
+
+/*通用选择器*/
+.color{color:#FF6699;}
+.width{width:1200px;margin:0px auto;}
+.float_l{float:left;}
+.float_r{float:right;}
+.clear_b{clear:both;}
+
+/*头部设置*/
+header{width:100%;background:white;border-bottom:1px solid #EEEEEE;}
+/*内容区*/
+#container{width:100%;background:#F4F4F4;}
+#container>.banner{width:100%;border-bottom:1px solid #DDDDDD;}
+
+#container>.width>ul>li{float:left;padding-right:30px;margin:20px 0;}
+#container>.width>ul>li>a{padding-right:20px;font-size:14px;}
+#table{background:white;}
+#table>.table_top{position:relative;}
+#table>.table_top>.thead{border-bottom:1px solid #EFEFEF;padding:15px 0;}
+#table>.table_top>.thead>span{font-size:14px;color:#333333;padding:0 10px;}
+
+#table{border:1px solid #ccc;width:100%;}
+
+#table tr{height:100px;border-bottom:1px solid #ccc;}
+#table tr td{text-align: center;}
+#btn_l,#btn_r{width:30px;height:30px;font-size:14px;}
+
+#del{margin:10px 0;padding:10px 0;background:white;border:1px solid #ccc;}
+#del button{margin-left:15px;}
